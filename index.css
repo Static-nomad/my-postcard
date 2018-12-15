@@ -4,46 +4,56 @@ body{
     background-color: #171717;
     font-family: 'ABeeZee', sans-serif;
     display: flex;
+    align-content: center;
+    
+
 }
 .main-content{
-    height: 350px;
-    width: 500px;
-    margin-top: 175px;
-    margin-left: 475px;
+    margin-top: 150px;
+    margin-left:400px ;
     background: white;
+    height: 300px;
+    width: 470px;
 }
-.postcard-header{
+div.postcard-header{
     background-color: white;
-    overflow: hidden;
-    margin-left: 15px;
+    display: flex;
+    height: 100px;
+}
+h1{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+img{
+    height: 80px;
+    padding-top: 15px;
+    padding-left: 200px;
+    
 }
 .postcard-body{
-    overflow: hidden;
     margin-left: 15px;
+    display: flex;
 }
-.left-body{
-    width: 250px;
-    height: 250px;
-    background-color: white;
-    float: left;
+
+div.right-body{
+    width: 50%;
 }
-.right-body{
-    margin-top: 30px;
+div.left-body{
+    width: 50%;
 }
 .input-area{
     border: none;
     border-bottom: 1px solid #A9A9A9;
-    margin-bottom: 5px;
-    margin-left:15px;
-    padding: 5px;
-    
+    margin-left:20px;
+    padding: 10px;
+    margin-top: 10px;
 }
-.button-holder{
-    text-align: center; 
-    background-color: white;
-    margin-bottom: 10px;
+footer{
+    display: flex;
+    justify-content: center;
 }
 button{
     background-color: #A9A9A9;
     margin-bottom: 40px;
+    text-align: center; 
 }
